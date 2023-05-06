@@ -1,4 +1,4 @@
-# Numero-Secreto
+# Número Secreto
 Bem-vindo ao jogo de adivinhação de número secreto por reconhecimento de voz!
 
 Neste jogo, você terá que adivinhar um número secreto de 1 a 100, usando apenas sua voz. O jogo usará tecnologia de reconhecimento de voz para capturar sua resposta.
