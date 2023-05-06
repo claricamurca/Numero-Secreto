@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --cor-primaria: #2d20b7;
+    --cor-secundaria: #30b35e;
+    --cor-neon: #5fff8c;
+    --cor-texto:  #7ae883;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+    text-shadow: 0 0 42px var(--cor-neon),
+    0 0 82px var(--cor-neon),
+    0 0 92px var(--cor-neon),
+    0 0 102px var(--cor-neon),
+    0 0 151px var(--cor-neon);
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid var(--cor-secundaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-texto);
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: var(--font-family);
+}
